@@ -1,0 +1,60 @@
+{
+  "name": "Faustine Tomoe Yamamoto",
+  "title": "Analytics projects with their limits stated",
+  "description": "Five data analytics case studies on hospital readmissions, coupon acceptance, product launches, the gender earnings gap and airline delays.",
+  "intro": "MSc Business Analytics student at the University of Greenwich (Product Development pathway), based in London. These are five pieces of coursework written up as short case studies: what was asked, what the data showed, and what it cannot show.",
+  "github": "",
+  "linkedin": "",
+  "projects": [
+    {
+      "slug": "readmission-and-segmentation",
+      "file": "projects/readmission-and-segmentation.md",
+      "nav": "Hospital readmissions",
+      "question": "Can data available at discharge predict which patients come back?",
+      "result": "A class-weighted SVC caught 68 of 79 readmitted patients",
+      "data": "1,500 patient records and 1,000 fitness-app users",
+      "methods": "Logistic regression, support vector classifier, class weighting, K-means and hierarchical clustering",
+      "tools": "Python, pandas, scikit-learn, matplotlib"
+    },
+    {
+      "slug": "coupon-acceptance",
+      "file": "projects/coupon-acceptance.md",
+      "nav": "Coupon acceptance",
+      "question": "What makes a driver accept a coupon?",
+      "result": "Cheap-meal coupons are accepted about 7 in 10 times, bar coupons about 4 in 10",
+      "data": "12,007 driving scenarios from the UCI in-vehicle coupon dataset",
+      "methods": "Random forest, decision tree, logistic regression, Apriori association rules",
+      "tools": "Python, pandas, scikit-learn, mlxtend"
+    },
+    {
+      "slug": "product-launch-success",
+      "file": "projects/product-launch-success.md",
+      "nav": "Product launches",
+      "question": "Which levers raise the chance a product launch succeeds?",
+      "result": "Four levers explain 59% of the variation in launch success",
+      "data": "1,500 product launches",
+      "methods": "Simple and multiple linear regression with assumption diagnostics",
+      "tools": "Python, pandas, statsmodels, seaborn"
+    },
+    {
+      "slug": "gender-earnings-gap",
+      "file": "projects/gender-earnings-gap.md",
+      "nav": "Gender earnings gap",
+      "question": "How large is the gender pay gap, and do age and education explain it?",
+      "result": "About 15% lower hourly pay for women, stable across ten specifications",
+      "data": "149,316 workers from a 2014 US labour-force survey extract",
+      "methods": "Log-wage regression with age and education controls",
+      "tools": "Python, pandas, statsmodels, stargazer"
+    },
+    {
+      "slug": "airline-delays",
+      "file": "projects/airline-delays.md",
+      "nav": "Airline delays",
+      "question": "What drives airline delays, and when do they peak?",
+      "result": "Late-arriving aircraft cause 40% of delay minutes",
+      "data": "34,013 carrier-airport-month records",
+      "methods": "Data cleaning and exploratory analysis",
+      "tools": "Python, pandas, matplotlib, seaborn"
+    }
+  ]
+}
