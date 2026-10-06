@@ -2,7 +2,7 @@
 
 Five data analytics projects, each written up as a short case study: the question, the data, what the models found, and what the analysis cannot show.
 
-Live site: add your GitHub Pages link here once it is published.
+Live site: https://moewen2317.github.io/analytics-portfolio/
 
 | Project | Question | Case study |
 |---|---|---|
